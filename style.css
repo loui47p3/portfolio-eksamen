@@ -26,7 +26,6 @@ main {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  text-align: center;
 }
 
 a {
@@ -37,6 +36,18 @@ a {
   color: #eb6424;
 }
 
+h2 {
+  font-family: marshmallow-fluff, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #faa830;
+  font-size: 2rem;
+  text-align: right;
+  position: absolute;
+  top: 488px;
+  right: 19px;
+}
+
 /* layout når den er stor */
 @media (min-width: 601px) {
   .h1_section {
@@ -45,7 +56,6 @@ a {
     font-style: normal;
     color: #eb6424;
     font-size: 4rem;
-
     margin: auto;
     height: 50vh;
     display: flex;
@@ -101,9 +111,12 @@ a {
     font-family: marshmallow-fluff, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #eb6424;
+    color: #faa830;
     font-size: 2rem;
     align-items: center;
     text-align: right;
+    position: absolute;
+    top: 650px;
+    right: 250px;
   }
 }
