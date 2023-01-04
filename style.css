@@ -1,0 +1,109 @@
+/************* RESET ***************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f7eb;
+}
+
+/************* LAYOUT ***************/
+main {
+  margin-inline: auto;
+  align-items: center;
+}
+
+/************* BODY ***************/
+.h1_section {
+  font-family: marshmallow-fluff, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #eb6424;
+  font-size: 2.5rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+a {
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: #eb6424;
+}
+
+/* layout når den er stor */
+@media (min-width: 601px) {
+  .h1_section {
+    font-family: marshmallow-fluff, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #eb6424;
+    font-size: 4rem;
+
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+
+  section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /************* LAYOUT *************/
+  .bodyindex {
+    background-image: url("img/Artboard\ 1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  /************* MENU ***************/
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #eb6424;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h2 {
+    font-family: marshmallow-fluff, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #eb6424;
+    font-size: 2rem;
+    align-items: center;
+    text-align: right;
+  }
+}
