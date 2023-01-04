@@ -36,7 +36,7 @@ a {
   color: #eb6424;
 }
 
-h2 {
+.h2_forside {
   font-family: marshmallow-fluff, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -52,6 +52,42 @@ img {
   width: 100%;
   display: block;
   object-fit: cover;
+}
+
+.h1_mig {
+  font-family: marshmallow-fluff, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #eb6424;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 5rem;
+}
+
+.mig_picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.lulu_picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #faa830;
 }
 
 /* layout når den er stor */
@@ -113,7 +149,7 @@ img {
     padding-right: 15px;
   }
 
-  h2 {
+  .h2_forside {
     font-family: marshmallow-fluff, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -131,17 +167,50 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    margin-top: 2rem;
   }
 
   .lulu_picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 70%;
   }
 
   .two_columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 7rem;
   }
+
+  .h1_mig {
+    font-family: marshmallow-fluff, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #eb6424;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5rem;
+  }
+
+  .h2_mig {
+    margin-top: 10rem;
+    margin-right: 10rem;
+    margin-left: 11rem;
+    font-family: marshmallow-fluff, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #eb6424;
+    font-size: 5rem;
+  }
+
+  p {
+    margin-top: 2rem;
+  }
+}
+
+.column1 {
+  border-right: 2px solid #efbcd5;
 }
