@@ -21,7 +21,7 @@ main {
   font-family: marshmallow-fluff, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #eb6424;
+  color: #03045e;
   font-size: 2.5rem;
   padding-left: 15px;
   padding-right: 15px;
@@ -33,14 +33,14 @@ a {
   font-weight: 700;
   font-style: normal;
   text-decoration: none;
-  color: #eb6424;
+  color: #03045e;
 }
 
 .h2_forside {
   font-family: marshmallow-fluff, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #faa830;
+  color: #efbcd5;
   font-size: 2rem;
   text-align: right;
   position: absolute;
@@ -88,7 +88,7 @@ p {
   font-family: forma-djr-micro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #faa830;
+  color: #03045e;
 }
 
 .portfolie_h1 {
@@ -129,8 +129,8 @@ p {
     font-family: marshmallow-fluff, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #eb6424;
-    font-size: 4rem;
+    color: #03045e;
+    font-size: 5rem;
     margin: auto;
     height: 50vh;
     display: flex;
@@ -146,13 +146,6 @@ p {
   }
 
   /************* LAYOUT *************/
-  .bodyindex {
-    background-image: url("img/Artboard\ 1.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-  }
 
   /************* MENU ***************/
   nav ul {
@@ -170,7 +163,8 @@ p {
     font-family: forma-djr-micro, sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #eb6424;
+    color: #03045e;
+    border-bottom: 2px solid #efbcd5;
   }
 
   header {
@@ -180,13 +174,14 @@ p {
     flex-wrap: nowrap;
     padding-left: 15px;
     padding-right: 15px;
+    height: 120px;
   }
 
   .h2_forside {
     font-family: marshmallow-fluff, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #faa830;
+    color: #efbcd5;
     font-size: 2rem;
     align-items: center;
     text-align: right;
@@ -222,7 +217,7 @@ p {
     font-family: marshmallow-fluff, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #eb6424;
+    color: #03045e;
     text-align: center;
     font-size: 5rem;
     margin-top: 5rem;
@@ -235,7 +230,7 @@ p {
     font-family: marshmallow-fluff, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #eb6424;
+    color: #03045e;
     font-size: 4rem;
   }
 
@@ -276,7 +271,7 @@ p {
     font-family: marshmallow-fluff, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #eb6424;
+    color: #03045e;
     text-align: center;
     font-size: 5rem;
     margin-top: 5rem;
