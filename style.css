@@ -43,10 +43,6 @@ a {
   font-style: normal;
   color: #efbcd5;
   font-size: 2rem;
-  text-align: right;
-  position: absolute;
-  top: 488px;
-  right: 19px;
 }
 
 img {
@@ -117,56 +113,31 @@ p {
 
 /* layout når den er stor */
 @media (min-width: 601px) {
-  .h1_forside {
-    font-family: marshmallow-fluff, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #03045e;
-    font-size: 5rem;
-    margin: auto;
-    height: 50vh;
-    display: flex;
-    text-align: left;
-    align-items: center;
-  }
-
-  section {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /************* LAYOUT *************/
-
   /************* MENU ***************/
-  nav ul {
+
+  ul {
     list-style-type: none;
-    display: flex;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #f6f7eb;
+  }
+
+  li {
+    float: right;
   }
 
   li a {
     display: block;
+    color: #03045e;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: forma-djr-micro, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: #03045e;
-    border-bottom: 2px solid #efbcd5;
   }
 
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 120px;
+  /* Change the link color on hover */
+  li a:hover {
+    color: #efbcd5;
   }
 
   .h2_forside {
@@ -175,11 +146,6 @@ p {
     font-style: normal;
     color: #efbcd5;
     font-size: 2rem;
-    align-items: center;
-    text-align: right;
-    position: absolute;
-    top: 650px;
-    right: 250px;
   }
 
   .mig_picture {
