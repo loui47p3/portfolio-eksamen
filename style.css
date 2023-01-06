@@ -17,6 +17,7 @@ main {
 }
 
 /************* BODY ***************/
+
 .h1_forside {
   font-family: marshmallow-fluff, sans-serif;
   font-weight: 400;
@@ -121,6 +122,9 @@ p {
     padding: 0;
     overflow: hidden;
     background-color: #f6f7eb;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
 
   li {
@@ -138,6 +142,26 @@ p {
   /* Change the link color on hover */
   li a:hover {
     color: #efbcd5;
+  }
+
+  .h1_forside {
+    font-family: marshmallow-fluff, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #03045e;
+    font-size: 5rem;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+
+  section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .h2_forside {
