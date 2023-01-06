@@ -119,41 +119,62 @@ p {
 /* layout når den er stor */
 @media (min-width: 601px) {
   /************* MENU ***************/
-  .menu {
-    padding: 18px;
+  nav ul {
+    list-style-type: none;
+    display: flex;
   }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f6f7eb;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  .menu {
+    border-bottom: 1px solid #efbcd5;
+    padding: 10px;
+  }
+
+  .logo {
+    padding: 10px;
+    max-width: 65px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
   }
 
   li {
-    float: right;
-  }
-
-  .menu_højre {
-    float: right;
+    padding-bottom: 10px;
   }
 
   li a {
-    display: block;
-    color: #03045e;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    border-bottom: 1.5px solid #efbcd5;
+    color: #03045e;
   }
 
-  /* Change the link color on hover */
   li a:hover {
     color: #efbcd5;
+  }
+
+  .indhold_menu {
+    padding-left: 50px;
+  }
+
+  .animation_menu {
+    padding-left: 50px;
+  }
+
+  .ux_menu {
+    padding-left: 50px;
+  }
+
+  .web_menu {
+    padding-left: 50px;
+  }
+
+  .intro_menu {
+    padding-left: 50px;
   }
 
   .h1_forside {
