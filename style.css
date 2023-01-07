@@ -111,8 +111,6 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
-  margin-top: 2rem;
 }
 
 /* layout når den er stor */
@@ -218,6 +216,13 @@ p {
     width: 70%;
   }
 
+  .portfolie_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
   .two_columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -237,7 +242,7 @@ p {
   }
 
   .h2_portfolie {
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-right: 10rem;
     margin-left: 11rem;
     font-family: marshmallow-fluff, sans-serif;
@@ -259,10 +264,10 @@ p {
   .grid_4col_1-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    margin-right: 150px;
-    margin-left: 150px;
-    margin-bottom: 100px;
+    gap: 1rem;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
   }
 
   .image1 {
