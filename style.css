@@ -8,6 +8,7 @@
 
 body {
   background-color: #ffffff;
+  background: radial-gradient(circle, #ffffff, #f4e8ee, #ffffff);
 }
 
 /************* LAYOUT ***************/
