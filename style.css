@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #ffffff;
-  background: radial-gradient(circle, #ffffff, #f4e8ee, #ffffff);
-}
-
 /************* LAYOUT ***************/
 main {
   margin-inline: auto;
@@ -18,6 +13,10 @@ main {
 }
 
 /************* BODY ***************/
+body {
+  background-color: #ffffff;
+  background: radial-gradient(circle, #ffffff, #ebd6e1, #ffffff);
+}
 
 .h1_forside {
   font-family: marshmallow-fluff, sans-serif;
@@ -27,7 +26,7 @@ main {
   font-size: 2.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 1rem;
+  margin-top: 16rem;
 }
 
 /*tekst i menu*/
@@ -39,12 +38,40 @@ a {
   color: #03045e;
 }
 
+.menu {
+  display: none;
+}
+
+.menu_button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #03045e;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 1;
+}
+
 .h2_forside {
   font-family: marshmallow-fluff, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #efbcd5;
-  font-size: 2rem;
+  font-size: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
@@ -83,6 +110,7 @@ p {
   font-style: normal;
   color: #03045e;
   margin-bottom: 5rem;
+  font-size: 1rem;
 }
 
 .h1_portfolie {
@@ -91,8 +119,10 @@ p {
   font-style: normal;
   color: #03045e;
   text-align: center;
-  font-size: 5rem;
-  margin-top: 5rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 21rem;
 }
 
 .h2_portfolie {
@@ -100,18 +130,7 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #03045e;
-  font-size: 3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 4rem;
-}
-
-.h2_mig {
-  font-family: marshmallow-fluff, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #03045e;
-  font-size: 3rem;
+  font-size: 1.8rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 4rem;
@@ -122,73 +141,6 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
-}
-
-.scrolling_text {
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-
-.scrolling_text_inner_mig {
-  display: inline-block;
-  font-size: 5rem;
-  font-family: marshmallow-fluff, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #03045e;
-  margin-top: 2rem;
-  animation: scroll 10s linear infinite;
-}
-
-.scrolling_text_inner_animation {
-  display: inline-block;
-  font-size: 5rem;
-  font-family: marshmallow-fluff, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #03045e;
-  margin-top: 2rem;
-  animation: scroll_animation 12s linear infinite;
-}
-
-.scrolling_text_inner_ux {
-  display: inline-block;
-  font-size: 5rem;
-  font-family: marshmallow-fluff, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #03045e;
-  margin-top: 2rem;
-  animation: scroll_ux 11s linear infinite;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(60%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes scroll_animation {
-  0% {
-    transform: translateX(32%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes scroll_ux {
-  0% {
-    transform: translateX(50%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }
 
 /* layout når den er stor */
@@ -207,6 +159,13 @@ p {
   .logo {
     padding: 10px;
     max-width: 65px;
+  }
+
+  .menu_button {
+    display: none;
+  }
+  .menu {
+    display: flex;
   }
 
   header {
@@ -315,16 +274,6 @@ p {
     margin-bottom: 7rem;
   }
 
-  .h1_portfolie {
-    font-family: marshmallow-fluff, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #03045e;
-    text-align: center;
-    font-size: 5rem;
-    margin-top: 5rem;
-  }
-
   .h2_portfolie {
     margin-top: 6rem;
     margin-right: 10rem;
@@ -388,80 +337,8 @@ p {
     text-align: center;
     font-size: 7rem;
     margin-top: 20rem;
-  }
-
-  .scrolling_text {
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-
-  .scrolling_text_forside {
-    margin-top: 10rem;
-    width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-  }
-
-  .scrolling_text_inner_mig {
-    display: inline-block;
-    font-size: 10rem;
-    font-family: marshmallow-fluff, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #03045e;
-
-    animation: scroll 13s linear infinite;
-  }
-
-  .scrolling_text_inner_animation {
-    display: inline-block;
-    font-size: 10rem;
-    font-family: marshmallow-fluff, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #03045e;
-
-    animation: scroll_animation 14s linear infinite;
-  }
-
-  .scrolling_text_inner_ux {
-    display: inline-block;
-    font-size: 10rem;
-    font-family: marshmallow-fluff, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #03045e;
-    animation: scroll_ux 13s linear infinite;
-  }
-
-  @keyframes scroll {
-    0% {
-      transform: translateX(130%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-
-  @keyframes scroll_animation {
-    0% {
-      transform: translateX(70%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-
-  @keyframes scroll_ux {
-    0% {
-      transform: translateX(92%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+    margin-right: 3rem;
+    margin-left: 3rem;
   }
 
   .reveal {
@@ -475,5 +352,4 @@ p {
     transition: transform 0.1s ease-in-out, opacity 0.3s ease-in-out;
   }
 }
-
 /**************PORTFOLIO SIDER *****************/

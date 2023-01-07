@@ -27,3 +27,11 @@ function smoothScrollTo(elementId) {
   const element = document.getElementById(elementId);
   element.scrollIntoView({ behavior: "smooth" });
 }
+
+/* menu */
+const button = document.querySelector(".menu_button");
+const menu = document.querySelector(".menu");
+
+button.addEventListener("click", () => {
+  menu.style.display = menu.style.display === "none" ? "block" : "none";
+});
