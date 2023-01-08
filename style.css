@@ -15,7 +15,7 @@ main {
 /************* BODY ***************/
 body {
   background-color: #ffffff;
-  background: radial-gradient(circle, #ffffff, #ebd6e1, #ffffff);
+  /*background: radial-gradient(circle, #ffffff, #faf0f5, #ffffff);*/
 }
 
 .h1_forside {
@@ -31,8 +31,10 @@ body {
 
 /*tekst i menu*/
 a {
-  font-family: forma-djr-micro, sans-serif;
-  font-weight: 700;
+  font-family: raleway, sans-serif;
+
+  font-weight: 400;
+
   font-style: normal;
   text-decoration: none;
   color: #03045e;
@@ -48,6 +50,10 @@ a {
   height: 40px;
   background: #03045e;
   color: #fff;
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
 }
 
 header {
@@ -83,6 +89,7 @@ img {
   display: block;
   object-fit: cover;
   align-self: stretch;
+  margin-right: 1rem;
 }
 
 .mig_picture {
@@ -105,8 +112,10 @@ p {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
-  font-family: forma-djr-micro, sans-serif;
-  font-weight: 700;
+  font-family: raleway, sans-serif;
+
+  font-weight: 400;
+
   font-style: normal;
   color: #03045e;
   margin-bottom: 5rem;
@@ -126,8 +135,8 @@ p {
 }
 
 .h2_portfolie {
-  font-family: marshmallow-fluff, sans-serif;
-  font-weight: 400;
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 700;
   font-style: normal;
   color: #03045e;
   font-size: 1.8rem;
@@ -197,20 +206,28 @@ p {
     color: #efbcd5;
   }
 
-  .indhold_menu {
+  #indhold_menu {
     padding-left: 50px;
   }
 
-  .animation_menu {
+  #animation_menu {
     padding-left: 50px;
   }
 
-  .ux_menu {
+  #ux_menu {
     padding-left: 50px;
   }
 
-  .web_menu {
+  #web_menu {
     padding-left: 50px;
+  }
+
+  #portfolio_menu {
+    padding-left: 50px;
+  }
+
+  img {
+    width: 120%;
   }
 
   .h1_forside {
@@ -289,9 +306,9 @@ p {
     margin-top: 2rem;
     margin-right: 10rem;
     margin-left: 11rem;
-    font-family: marshmallow-fluff, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: forma-djr-display, sans-serif;
+    font-weight: 200;
+    font-style: italic;
     color: #03045e;
     font-size: 3rem;
   }
@@ -352,4 +369,3 @@ p {
     transition: transform 0.1s ease-in-out, opacity 0.3s ease-in-out;
   }
 }
-/**************PORTFOLIO SIDER *****************/
