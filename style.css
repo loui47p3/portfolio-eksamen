@@ -38,6 +38,7 @@ a {
   font-style: normal;
   text-decoration: none;
   color: #03045e;
+  font-size: 0.8rem;
 }
 
 .menu {
@@ -100,7 +101,7 @@ img {
   margin-top: 2rem;
 }
 
-.lulu_picture {
+.portfolie_img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -122,7 +123,7 @@ p {
   font-size: 1rem;
 }
 
-.h1_portfolie {
+.h1_portfolie_mig {
   font-family: marshmallow-fluff, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -134,22 +135,27 @@ p {
   margin-top: 21rem;
 }
 
+.h1_portfolie {
+  font-family: marshmallow-fluff, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #03045e;
+  text-align: center;
+  font-size: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 10rem;
+}
+
 .h2_portfolie {
-  font-family: forma-djr-micro, sans-serif;
-  font-weight: 700;
+  font-family: marshmallow-fluff, sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #03045e;
   font-size: 1.8rem;
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 4rem;
-}
-
-.portfolie_img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 85%;
 }
 
 /* layout når den er stor */
@@ -263,13 +269,6 @@ p {
     margin-right: auto;
     width: 30%;
     margin-top: 2rem;
-  }
-
-  .lulu_picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
   }
 
   .portfolie_img {
