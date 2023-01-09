@@ -352,6 +352,33 @@ p {
     margin-left: 3rem;
   }
 
+  .h1_portfolie_mig {
+    font-family: marshmallow-fluff, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #03045e;
+    text-align: center;
+    font-size: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 21rem;
+  }
+
+  .h3_portfolie {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #03045e;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+    line-height: 2rem;
+  }
+
   .reveal {
     opacity: 0;
     transform: translateY(20px);
