@@ -13,21 +13,7 @@ function isElementInViewport(el) {
   return rect.top >= 0 && rect.left >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
 }
 
-/* smooth scrolling */
-const links = document.querySelectorAll('a[href^="#"]');
-
-links.forEach((link) => {
-  link.addEventListener("click", (event) => {
-    event.preventDefault();
-    smoothScrollTo(link.getAttribute("href").substring(1));
-  });
-});
-
-function smoothScrollTo(elementId) {
-  const element = document.getElementById(elementId);
-  element.scrollIntoView({ behavior: "smooth" });
-}
-
+/*** hamburger menu ***/
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
