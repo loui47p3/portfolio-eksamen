@@ -292,6 +292,17 @@ p {
   margin-top: 10rem;
 }
 
+.h3_portfolie_1 {
+  font-family: mencken-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ea5657;
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
 .h3_portfolie_portfoilo {
   font-family: mencken-std, sans-serif;
   font-weight: 400;
@@ -448,6 +459,19 @@ footer {
   }
 
   .h3_portfolie {
+    margin-top: 6rem;
+    margin-right: 10rem;
+    margin-left: 12rem;
+    font-family: mencken-std, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: #ea5657;
+    font-size: 3rem;
+  }
+
+  .h3_portfolie_1 {
     margin-top: 6rem;
     margin-right: 10rem;
     margin-left: 12rem;
