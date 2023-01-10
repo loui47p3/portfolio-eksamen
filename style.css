@@ -199,7 +199,21 @@ body {
   font-family: raleway, sans-serif;
   font-weight: 400;
   border-radius: 4px;
-  margin-bottom: 6rem;
+}
+
+.knap_2 {
+  margin-left: 8rem;
+  background-color: #ea5657;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  border-radius: 4px;
 }
 
 .knap:hover {
@@ -275,7 +289,18 @@ p {
   font-size: 1.8rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  margin-top: 4rem;
+  margin-top: 10rem;
+}
+
+.h3_portfolie_portfoilo {
+  font-family: mencken-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ea5657;
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .h2_portfolie {
@@ -292,6 +317,18 @@ p {
   margin-bottom: 5rem;
   font-size: 1rem;
   line-height: 2rem;
+}
+
+footer {
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: #ea5657;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 /* desktop */
@@ -423,6 +460,19 @@ p {
     font-size: 3rem;
   }
 
+  .h3_portfolie_portfoilo {
+    margin-top: 6rem;
+    margin-right: 10rem;
+    margin-left: 12rem;
+    font-family: mencken-std, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: #ea5657;
+    font-size: 3rem;
+  }
+
   p {
     margin-top: 2rem;
     line-height: 2rem;
@@ -533,7 +583,26 @@ p {
     border-radius: 4px;
   }
 
+  .knap_2 {
+    margin-left: 2rem;
+    background-color: #ea5657;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+  }
+
   .knap:hover {
+    background-color: #efbcd5;
+  }
+
+  .knap_2:hover {
     background-color: #efbcd5;
   }
 
